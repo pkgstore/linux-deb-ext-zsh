@@ -1,0 +1,17 @@
+ext-zsh (1.0.1-2) unstable; urgency=medium
+
+  * UPD: grml-team (grml.org).
+
+ -- Package Store <kitsune.solar@gmail.com>  Sun, 09 Feb 2020 16:00:00 +0300
+
+ext-zsh (1.0.1-1) unstable; urgency=medium
+
+  * UPD: grml-team (grml.org).
+
+ -- Package Store <kitsune.solar@gmail.com>  Sun, 09 Feb 2020 14:00:00 +0300
+
+ext-zsh (1.0.0-1) unstable; urgency=medium
+
+  * Initial Release
+
+ -- Package Store <kitsune.solar@gmail.com>  Tue, 12 Nov 2019 14:00:00 +0300
