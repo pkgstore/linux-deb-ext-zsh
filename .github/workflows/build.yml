@@ -12,6 +12,6 @@ jobs:
         with:
           repo_src: "https://github.com/${{ github.repository }}.git"
           repo_dst: "https://github.com/deb-store/ext-zsh.git"
-          user: "${{ secrets.BOT_NAME }}"
-          email: "${{ secrets.BOT_EMAIL }}"
-          token: "${{ secrets.BOT_TOKEN }}"
+          user_name: "${{ secrets.BOT_NAME }}"
+          user_email: "${{ secrets.BOT_EMAIL }}"
+          user_token: "${{ secrets.BOT_TOKEN }}"
