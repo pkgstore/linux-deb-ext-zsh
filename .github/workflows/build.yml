@@ -1,0 +1,17 @@
+name: "Debian: Build Package"
+
+on:
+  - push
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    name: "Build"
+    steps:
+      - uses: pkgstore/github-action-build-deb@main
+        with:
+          repo_src: "https://github.com/${{ github.repository }}.git"
+          repo_dst: "https://github.com/deb-store/ext-zsh.git"
+          user: "${{ secrets.BOT_NAME }}"
+          email: "${{ secrets.BOT_EMAIL }}"
+          token: "${{ secrets.BOT_TOKEN }}"
