@@ -15,3 +15,6 @@ jobs:
           user_name: "${{ secrets.BOT_NAME }}"
           user_email: "${{ secrets.BOT_EMAIL }}"
           user_token: "${{ secrets.BOT_TOKEN }}"
+          obs_token: ""
+          obs_project: ""
+          obs_package: ""
