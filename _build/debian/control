@@ -14,7 +14,6 @@ Rules-Requires-Root: no
 Package: ext-zsh
 Architecture: all
 Depends: zsh
-        ,${shlibs:Depends}
         ,${misc:Depends}
 Description: META-package for install and configure Zsh
  META-package for install and configure Zsh.
