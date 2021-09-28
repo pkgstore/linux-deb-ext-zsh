@@ -1,5 +1,5 @@
 Source: ext-zsh
-Section: admin
+Section: shells
 Priority: optional
 Maintainer: Package Store <kitsune.solar@gmail.com>
 Uploaders: Package Store <kitsune.solar@gmail.com>
